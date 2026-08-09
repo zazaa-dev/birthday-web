@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ucapan Birthday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <main class="content-card">
+        <div class="card-ribbon">Special Wishes</div>
+        <div class="character">💌🌷</div>
+        <h1>Special Wishes</h1>
+        <p class="card-text">
+          Happy Birthday to my dearest childhood friend. Time flies so fast,
+          changing two little kids who loved to play into the amazing and
+          mature person you are today.
+        </p>
+        <p class="card-text">
+          Thank you for being the most gorgeous part of my childhood memory,
+          and thank you for always being my inspiration. May this maturity
+          bring you endless happiness, good health, and endless success.
+          Wish you all the best!
+        </p>
+
+        <div class="grid">
+          <div class="message-card">
+            <h3>For You</h3>
+            <p>May this day feel warm, full of smiles, and filled with unexpected happiness.</p>
+          </div>
+          <div class="message-card">
+            <h3>Best Wishes</h3>
+            <p>May you always stay healthy, happy, and become the best version of yourself.</p>
+          </div>
+        </div>
+
+        <div class="button-row">
+          <button class="btn btn-secondary" data-next="index.html">Back to start</button>
+          <button class="btn btn-primary" data-next="page-foto.html">Continue to the next page</button>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
