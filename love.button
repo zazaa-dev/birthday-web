@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foto-foto Birthday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <main class="content-card">
+        <div class="card-ribbon">Sweet Memories</div>
+        <div class="character">�</div>
+        <h1>Little Love</h1>
+        <p class="card-text">
+          Tap the white heart and let the love scatter everywhere.
+        </p>
+
+        <div class="love-stage" id="loveStage">
+          <button class="love-button" id="loveButton" aria-label="White love button">♡</button>
+        </div>
+
+        <div class="button-row">
+          <button class="btn btn-secondary" data-next="page-ucapan.html">Back</button>
+          <button class="btn btn-primary" data-next="index.html">Start over</button>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
